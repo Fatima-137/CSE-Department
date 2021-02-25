@@ -1,0 +1,302 @@
+body{
+    margin: 8px;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+
+/* Start Header Section */
+header{
+    width: 1333px;
+    height: 185px;
+}
+.container{
+     width: 1333px;
+     height: 120px;
+     background-color:#fefefe;
+     display: flex;
+     margin: 10px;
+ }
+.logo{
+     width: 220px;
+     height: 100px;
+ }
+.logo img{
+     width: 200px;
+     height: 100px;
+     padding: 10px;
+ }
+.title{
+     width: 1075px;
+     height: 100px;
+     padding-left: 20px;
+     padding-right: 10px;
+ }
+.title h1{
+     font-size: 30px;
+     letter-spacing: 5px;
+     font-weight: bolder;
+     text-align: center;
+     color: #7791a1;
+ }
+.title hr{
+     width: 300px;
+     background-color: #7791a1;
+     text-align: center;
+ }
+.title p{
+     text-align: center;
+     letter-spacing: 1.5px;
+ }
+nav{
+     display: inline-block;
+     margin-top: 0px;
+     background-color:#7791a1;
+     text-align: center;
+     width: 1331px;
+     height: 52px;
+     border: solid 1px#0005;
+ }
+nav a{
+     text-decoration: none;
+     margin: 5px;
+     padding: 10px;
+     display: inline-block;
+     background-color:#0005;
+     text-align: center;
+     border-radius: 10px;
+     color: #fff;
+ }
+nav a:hover{
+     color:	#7791a1;
+     background-color: #f65868;
+     font-weight: bold;
+ }
+/* End Header Section */
+
+
+/* Start Main Section */
+.cover img{
+    width: 1333px;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    width: 300px;
+    height: 780px;
+    background-color: #7791a1;
+    margin-right: 20px;
+}
+.links, .info{
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.links h3{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+.links a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    background-color: #0005;
+    color: #fff;
+    display: block;
+}
+.links a:hover{
+    background-color: #f65868;
+    color: #7791a1;
+    font-weight: bold;
+}
+.info{
+    width: 1033px;
+    margin-left: 20px;
+    padding: 30px;
+}
+.info h1{
+    color: #7791a1;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #0005;
+	border-left: 10px solid #f65868;
+   
+}
+.info p , li{
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+.info h1 , hr , p , li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Start Syllabus Section */
+.syllabusInfo{
+    width: 1033px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.syllabusInfo h1{
+    color: #7791a1;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #0005;
+	border-left: 10px solid #f65868;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.syllabusSchedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: #ffffff1a;
+}
+.syllabusSchedule h3{
+    color: #7791a1;
+    letter-spacing: .8px;
+    border-bottom: 1px solid #0005;
+	border-left: 10px solid #f65868;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.syllabusSchedule table , th , td{
+    border: .1px solid #0005;
+    text-align: center;
+}
+.syllabusSchedule th,td{
+    padding: 10px;
+}
+/* End Syllabus Section */
+
+/* Start Faculty Section */
+
+/* End Faculty Section */
+
+/* Start Research Groups Section */
+.researchInfo{
+    width: 1033px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.researchInfo h1{
+    color: #7791a1;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #0005;
+	border-left: 10px solid #f65868;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.researchInfo h4{
+    color: #7791a1;
+    font-size: 18px;
+    letter-spacing: .8px;
+    border-bottom: 1px solid #0005;
+	border-left: 10px solid #f65868;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.researchInfo li{
+    margin-left: 60px;
+}
+/* End Research Groups Section  */
+
+/* Start Research Publication Section */
+
+.publicationInfo {
+    width: 1033px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.publicationInfo h1{
+    color: #7791a1;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #0005;
+	border-left: 10px solid #f65868;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.publicationInfo h4{
+    color: #7791a1;
+    font-size: 18px;
+    letter-spacing: .8px;
+    border-bottom: 1px solid #0005;
+	border-left: 10px solid #f65868;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.publicationInfo li{
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.publicationInfo a{
+    display: flex;
+    color: blue;
+}
+
+/* End Research Publication Section */
+
+/* End Main Section */
+
+
+/* Start Footer Section */
+footer{
+    background-color: #7791a1;
+}
+.footerContainer{
+    /* background-color: #7791a1; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.footerInfo h4{
+    color: #fff;
+}
+.footerInfo a{
+    color: #fff;
+    text-decoration: none;
+}
+.footerInfo a:hover{
+    background-color: #0005;
+    padding: 5px;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+.footerCopyRights{
+    background-color: #7791a1;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #ffffff1a;
+    padding: 5px;
+}
+/* End Footer Section */
